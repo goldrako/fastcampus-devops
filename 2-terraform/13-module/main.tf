@@ -5,7 +5,7 @@ provider "aws" {
 module "account" {
   source = "./account"
 
-  name = "posquit0-fastcampus"
+  name = "goldrako-fastcampus"
   password_policy = {
     minimum_password_length        = 8
     require_numbers                = true

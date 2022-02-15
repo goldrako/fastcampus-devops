@@ -62,15 +62,15 @@ output "for_each_set_user_arns" {
 resource "aws_iam_user" "for_each_map" {
   for_each = {
     alice = {
-      level = "low"
-      manager = "posquit0"
+      level   = "low"
+      manager = "goldrako"
     }
     bob = {
-      level = "mid"
-      manager = "posquit0"
+      level   = "mid"
+      manager = "goldrako"
     }
     john = {
-      level = "high"
+      level   = "high"
       manager = "steve"
     }
   }

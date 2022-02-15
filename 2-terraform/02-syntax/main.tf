@@ -18,7 +18,7 @@ provider "aws" {
 
 locals {
   workspace_tags = {
-    "Owner" = "posquit0"
+    "Owner" = "goldrako"
   }
 }
 

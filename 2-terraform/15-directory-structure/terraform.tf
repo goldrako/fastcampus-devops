@@ -19,7 +19,7 @@ locals {
     fastcampus = {
       id     = "xxxxxxxxxx"
       region = "ap-northeast-2"
-      alias  = "posquit0-fastcampus"
+      alias  = "goldrako-fastcampus"
     },
   }
   context = yamldecode(file(var.config_file)).context

@@ -1,8 +1,9 @@
 terraform {
   backend "s3" {
-    bucket = "fastcampus-devops-terraform"
-    key    = "s3-backend/terraform.tfstate"
-    region = "ap-northeast-2"
+    bucket  = "goldrako-devops-terraform"
+    key     = "s3-backend/terraform.tfstate"
+    region  = "ap-northeast-2"
+    encrypt = true
   }
 }
 

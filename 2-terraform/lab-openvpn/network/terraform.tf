@@ -1,7 +1,7 @@
 terraform {
   backend "remote" {
     hostname     = "app.terraform.io"
-    organization = "fastcampus-devops"
+    organization = "skcc-devops"
 
     workspaces {
       name = "terraform-lab-network"
